@@ -5,7 +5,8 @@
   - name : install Apache2
     apt :
         name : Apache2
-        state: present
+        state: absent
+        
         
 
 
